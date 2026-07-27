@@ -1,4 +1,4 @@
-import type { Unit, UnitSystem, WeightSource } from './types';
+import type { Unit, UnitSystem, WeightSource } from './types.js';
 
 export const OZ_G = 28.349523125;
 export const LB_G = 453.59237;

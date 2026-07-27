@@ -1,4 +1,4 @@
-import type { PackRounding } from './types';
+import type { PackRounding } from './types.js';
 
 /**
  * Round a raw weight UP to whole buyable packs (never under-buy). `packs` is 0 when nothing is

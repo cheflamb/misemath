@@ -6,7 +6,7 @@
  * raw?" and the unit/pack/buffer arithmetic around that. Demand adapters own the forecast
  * and call in here for the conversion.
  */
-export { finishedToRaw } from './yield';
+export { finishedToRaw } from './yield.js';
 export {
   toGrams,
   fromGrams,
@@ -23,7 +23,7 @@ export {
   QT_ML,
   GAL_ML,
   L_ML,
-} from './units';
-export { roundToPacks } from './pack';
-export { newsvendorBuffer, zForServiceLevel } from './buffer';
-export type { Unit, UnitSystem, WeightSource, PackRounding } from './types';
+} from './units.js';
+export { roundToPacks } from './pack.js';
+export { newsvendorBuffer, zForServiceLevel } from './buffer.js';
+export type { Unit, UnitSystem, WeightSource, PackRounding } from './types.js';
